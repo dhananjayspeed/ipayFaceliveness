@@ -1,0 +1,16 @@
+{
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "CredentialsProvider": {
+                    "CognitoIdentity": {
+                        "Default": {
+                            "PoolId": "ap-south-1:073dee90-1a4c-4bfc-8a23-1c9dc0c78849",
+                            "Region": "ap-south-1"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

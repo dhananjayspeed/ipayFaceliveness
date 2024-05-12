@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10261B5F2BDF94680091833F /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 10261B5E2BDF94680091833F /* amplifyconfiguration.json */; };
+		10261B622BDF95730091833F /* FaceLiveness in Frameworks */ = {isa = PBXBuildFile; productRef = 10261B612BDF95730091833F /* FaceLiveness */; };
+		1054C27B2BDF810C0070C3B6 /* ipayFacelivenessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054C27A2BDF810C0070C3B6 /* ipayFacelivenessApp.swift */; };
+		1054C27D2BDF810C0070C3B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054C27C2BDF810C0070C3B6 /* ContentView.swift */; };
+		1054C27F2BDF810E0070C3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1054C27E2BDF810E0070C3B6 /* Assets.xcassets */; };
+		1054C2822BDF810E0070C3B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1054C2812BDF810E0070C3B6 /* Preview Assets.xcassets */; };
+		DB32273841844D6361AA937A /* Pods_ipayFaceliveness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C910A7172408CEAA521650 /* Pods_ipayFaceliveness.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C910A7172408CEAA521650 /* Pods_ipayFaceliveness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipayFaceliveness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10261B5E2BDF94680091833F /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		1054C2772BDF810C0070C3B6 /* ipayFaceliveness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipayFaceliveness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1054C27A2BDF810C0070C3B6 /* ipayFacelivenessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipayFacelivenessApp.swift; sourceTree = "<group>"; };
+		1054C27C2BDF810C0070C3B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1054C27E2BDF810E0070C3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1054C2812BDF810E0070C3B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13A69427580D1E594DF5F657 /* Pods-ipayFaceliveness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipayFaceliveness.debug.xcconfig"; path = "Target Support Files/Pods-ipayFaceliveness/Pods-ipayFaceliveness.debug.xcconfig"; sourceTree = "<group>"; };
+		3E16469513DF09CAB4012C53 /* Pods-ipayFaceliveness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipayFaceliveness.release.xcconfig"; path = "Target Support Files/Pods-ipayFaceliveness/Pods-ipayFaceliveness.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1054C2742BDF810C0070C3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10261B622BDF95730091833F /* FaceLiveness in Frameworks */,
+				DB32273841844D6361AA937A /* Pods_ipayFaceliveness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1054C26E2BDF810C0070C3B6 = {
+			isa = PBXGroup;
+			children = (
+				1054C2792BDF810C0070C3B6 /* ipayFaceliveness */,
+				1054C2782BDF810C0070C3B6 /* Products */,
+				B5084D304D5535D72DE45775 /* Pods */,
+				534C635B3094D27981412FBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1054C2782BDF810C0070C3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1054C2772BDF810C0070C3B6 /* ipayFaceliveness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1054C2792BDF810C0070C3B6 /* ipayFaceliveness */ = {
+			isa = PBXGroup;
+			children = (
+				10261B5E2BDF94680091833F /* amplifyconfiguration.json */,
+				1054C27A2BDF810C0070C3B6 /* ipayFacelivenessApp.swift */,
+				1054C27C2BDF810C0070C3B6 /* ContentView.swift */,
+				1054C27E2BDF810E0070C3B6 /* Assets.xcassets */,
+				1054C2802BDF810E0070C3B6 /* Preview Content */,
+			);
+			path = ipayFaceliveness;
+			sourceTree = "<group>";
+		};
+		1054C2802BDF810E0070C3B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1054C2812BDF810E0070C3B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		534C635B3094D27981412FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06C910A7172408CEAA521650 /* Pods_ipayFaceliveness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5084D304D5535D72DE45775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A69427580D1E594DF5F657 /* Pods-ipayFaceliveness.debug.xcconfig */,
+				3E16469513DF09CAB4012C53 /* Pods-ipayFaceliveness.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1054C2762BDF810C0070C3B6 /* ipayFaceliveness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1054C2852BDF810E0070C3B6 /* Build configuration list for PBXNativeTarget "ipayFaceliveness" */;
+			buildPhases = (
+				E2D9A00AC26F2B52087EA5E5 /* [CP] Check Pods Manifest.lock */,
+				1054C2732BDF810C0070C3B6 /* Sources */,
+				1054C2742BDF810C0070C3B6 /* Frameworks */,
+				1054C2752BDF810C0070C3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipayFaceliveness;
+			packageProductDependencies = (
+				10261B612BDF95730091833F /* FaceLiveness */,
+			);
+			productName = ipayFaceliveness;
+			productReference = 1054C2772BDF810C0070C3B6 /* ipayFaceliveness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1054C26F2BDF810C0070C3B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1054C2762BDF810C0070C3B6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1054C2722BDF810C0070C3B6 /* Build configuration list for PBXProject "ipayFaceliveness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1054C26E2BDF810C0070C3B6;
+			packageReferences = (
+				10261B602BDF95730091833F /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */,
+			);
+			productRefGroup = 1054C2782BDF810C0070C3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1054C2762BDF810C0070C3B6 /* ipayFaceliveness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1054C2752BDF810C0070C3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1054C2822BDF810E0070C3B6 /* Preview Assets.xcassets in Resources */,
+				10261B5F2BDF94680091833F /* amplifyconfiguration.json in Resources */,
+				1054C27F2BDF810E0070C3B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2D9A00AC26F2B52087EA5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipayFaceliveness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1054C2732BDF810C0070C3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1054C27D2BDF810C0070C3B6 /* ContentView.swift in Sources */,
+				1054C27B2BDF810C0070C3B6 /* ipayFacelivenessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1054C2832BDF810E0070C3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1054C2842BDF810E0070C3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1054C2862BDF810E0070C3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A69427580D1E594DF5F657 /* Pods-ipayFaceliveness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ipayFaceliveness/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J7FDCWFZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) camera use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ipayFaceliveness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1054C2872BDF810E0070C3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E16469513DF09CAB4012C53 /* Pods-ipayFaceliveness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ipayFaceliveness/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J7FDCWFZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) camera use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ipayFaceliveness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1054C2722BDF810C0070C3B6 /* Build configuration list for PBXProject "ipayFaceliveness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054C2832BDF810E0070C3B6 /* Debug */,
+				1054C2842BDF810E0070C3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1054C2852BDF810E0070C3B6 /* Build configuration list for PBXNativeTarget "ipayFaceliveness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054C2862BDF810E0070C3B6 /* Debug */,
+				1054C2872BDF810E0070C3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10261B602BDF95730091833F /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-liveness";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10261B612BDF95730091833F /* FaceLiveness */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10261B602BDF95730091833F /* XCRemoteSwiftPackageReference "amplify-ui-swift-liveness" */;
+			productName = FaceLiveness;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1054C26F2BDF810C0070C3B6 /* Project object */;
+}
