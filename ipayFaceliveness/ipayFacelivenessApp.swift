@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-import Amplify
-import AWSCognitoAuthPlugin
+//import Amplify
+//import AWSCognitoAuthPlugin
 
 @main
 struct ipayFacelivenessApp: App {
