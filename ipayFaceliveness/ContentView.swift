@@ -53,7 +53,7 @@ struct ContentView: View {
                     maxWidth: .infinity,
                     maxHeight: .infinity
                 ).border(Color.red, width: 8)
-                    .background(.red)
+                    .background(Color.red)
                     .zIndex(1)
 
                 
@@ -64,7 +64,7 @@ struct ContentView: View {
                     maxWidth: .infinity,
                     maxHeight: .infinity
                 ).border(Color.yellow, width: 5)
-                    .background(.white)
+                    .background(Color.white)
             }
             .frame(
                 maxWidth: .infinity,
